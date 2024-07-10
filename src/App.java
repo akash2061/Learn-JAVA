@@ -24,5 +24,21 @@ public class App {
         System.out.println("float:\t" + f);
         System.out.println("double:\t" + d);
         System.out.println("byte:\t" + b);
+
+        // ! Swap strings
+        String str1 = "Water";
+        String str2 = "H2O";
+        System.out.println("\nStrings before swap:");
+        System.out.println("str1:\t" + str1);
+        System.out.println("str2:\t" + str2);
+        String temp = null;
+        temp = str1;
+        str1 = str2;
+        str2 = temp;
+        System.out.println("Strings after swap:");
+        System.out.println("str1:\t" + str1);
+        System.out.println("str2:\t" + str2);
+        temp = null;
+        System.out.println("\nTemp = " + temp);
     }
 }

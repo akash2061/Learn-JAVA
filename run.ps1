@@ -13,6 +13,11 @@ $choice = Read-Host "Which Java application do you want to run? Enter 'App' or '
 #     Write-Host "Invalid choice. Exiting script."
 #     exit
 # }
+if ($choice -eq "") {
+    ""
+    Write-Host "ERROR: empty file name." -ForegroundColor Red
+    exit
+}
 $run = "java -cp bin $choice"
 ""
 # Execute the commands

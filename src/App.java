@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) {
         // ! Starting
@@ -40,5 +42,27 @@ public class App {
         System.out.println("str2:\t" + str2);
         temp = null;
         System.out.println("\nTemp = " + temp);
+
+        // ! Scanner
+        System.out.println("\nScanner:");
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = scanner.nextInt();
+        System.out.println("You entered: " + num);
+
+        scanner.nextLine(); // * Clean the next line.
+
+        System.out.print("Enter a string: ");
+        String input = scanner.nextLine();
+        System.out.println("String: " + input);
+        scanner.close();
+
+        // ! Expressions
+        num = 3;
+        System.out.println("Num * 3 = " + num * 3);
+        System.out.println("Num - 3 = " + (num - 3));
+        System.out.println("Num + 3 = " + (num + 3));
+        System.out.println("Num / 3 = " + num / 3);
+        System.out.println("Num % 3 = " + num % 3);
     }
 }

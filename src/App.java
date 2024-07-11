@@ -64,5 +64,12 @@ public class App {
         System.out.println("Num + 3 = " + (num + 3));
         System.out.println("Num / 3 = " + num / 3);
         System.out.println("Num % 3 = " + num % 3);
+
+        // ! Math
+        double pi = 3.141592;
+        d = -10.596;
+        System.out.println("\nMath");
+        System.out.println("Max:" + Math.max(pi, d));
+        System.out.println("Min:" + Math.min(pi, d));
     }
 }

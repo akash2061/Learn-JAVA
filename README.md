@@ -12,7 +12,7 @@ The workspace contains two folders, where:
 
 ## Learning Milestones
 
-- [ ] Basics of Java (syntax, data types, control structures)
+- [x] Basics of Java (syntax, data types, control structures)
 - [ ] Object-Oriented Programming (classes, objects, inheritance, polymorphism)
 - [ ] Exception Handling
 - [ ] Collections Framework

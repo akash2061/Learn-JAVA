@@ -112,7 +112,10 @@ public class Main {
         }
 
         // ! Switch Case
-        String day = "Friday";
+        System.out.println("\nSwitch Case:");
+        String[] days = { "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" };
+        int randomIndex = random.nextInt(days.length);
+        String day = days[randomIndex];
         switch (day) {
             case "Sunday":
                 System.out.println("Today is Sunday");

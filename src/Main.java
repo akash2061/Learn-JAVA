@@ -99,5 +99,18 @@ public class Main {
         System.out.println("Random y = " + y);
         boolean z = random.nextBoolean();
         System.out.println("Random z = " + z);
+
+        // ! Conditional Statements
+        int age = random.nextInt(100) + 1;
+        System.out.println("\nConditional Statements:");
+        if (age >= 18) {
+            System.out.println("You are an adult. " + "Age : " + age);
+        } else if (age >= 13) {
+            System.out.println("You are a teenager. " + "Age : " + age);
+        } else {
+            System.out.println("You are a child. " + "Age : " + age);
+        }
+
+        scanner.close();
     }
 }

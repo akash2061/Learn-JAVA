@@ -169,11 +169,46 @@ public class Main {
             System.out.println(i + "\t:\t" + days[i]);
         }
 
-        // ! Nested Loop
+        // ! Nested Loop & Patterns
         System.out.println("\nNested Loop:");
-        for (int outer = 1; outer <= 5; outer++) {
-            for (int inner = 1; inner <= outer; inner++) {
-                System.out.print("* ");
+        i = 5;
+        for (int o = 1; o <= 5; o++) {
+            for (int in = o; in < 5; in++) {
+                System.out.print(" ");
+            }
+            for (int k = 1; k <= (2 * i - 1); k++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        System.out.println();
+        for (int o = 1; o <= 5; o++) {
+            for (int in = o; in < 5; in++) {
+                System.out.print(" ");
+            }
+            for (int k = 1; k <= (2 * o - 1); k++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        System.out.println();
+        for (int o = 5; o > 0; o--) {
+            for (int in = 5; in > o; in--) {
+                System.out.print(" ");
+            }
+            for (int k = 1; k <= (2 * o - 1); k++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        System.out.println();
+        i = 5;
+        for (int o = 5; o > 0; o--) {
+            for (int in = 5; in > o; in--) {
+                System.out.print(" ");
+            }
+            for (int k = 1; k <= (2 * i - 1); k++) {
+                System.out.print("*");
             }
             System.out.println();
         }

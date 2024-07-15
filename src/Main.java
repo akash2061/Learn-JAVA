@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
@@ -55,7 +56,7 @@ public class Main {
         System.out.print("Enter a string: ");
         String input = scanner.nextLine();
         System.out.println("String: " + input);
-        scanner.close();
+        // scanner.close();
 
         // ! Expressions
         num = 3;
@@ -76,5 +77,27 @@ public class Main {
         System.out.println("Round:\t" + Math.round(pi));
         System.out.println("Ceil:\t" + Math.ceil(pi));
         System.out.println("Floor:\t" + Math.floor(pi));
+
+        // ! Calculate Hypotenous
+        double base, side;
+        // Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter base : ");
+        base = scanner.nextDouble();
+
+        System.out.println("Enter side : ");
+        side = scanner.nextDouble();
+
+        double hypo = Math.sqrt((base * base) + (side * side));
+        System.out.println("The hypotenous is " + hypo);
+
+        // ! Random Values
+        Random random = new Random();
+        int x = random.nextInt(6) + 1;
+        System.out.println("Random x = " + x);
+        double y = random.nextDouble();
+        System.out.println("Random y = " + y);
+        boolean z = random.nextBoolean();
+        System.out.println("Random z = " + z);
     }
 }

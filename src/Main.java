@@ -69,7 +69,12 @@ public class Main {
         double pi = 3.141592;
         d = -10.596;
         System.out.println("\nMath");
-        System.out.println("Max:" + Math.max(pi, d));
-        System.out.println("Min:" + Math.min(pi, d));
+        System.out.println("Max:\t" + Math.max(pi, d));
+        System.out.println("Min:\t" + Math.min(pi, d));
+        System.out.println("Abs:\t" + Math.abs(d));
+        System.out.println("Sqrt:\t" + Math.sqrt(pi));
+        System.out.println("Round:\t" + Math.round(pi));
+        System.out.println("Ceil:\t" + Math.ceil(pi));
+        System.out.println("Floor:\t" + Math.floor(pi));
     }
 }

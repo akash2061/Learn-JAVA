@@ -3,6 +3,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class Main {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         // ! Starting
         System.out.println("Hello, World!");
@@ -280,5 +281,14 @@ public class Main {
         System.out.println(result7);
         System.out.println(result8);
         System.out.println(result9);
+
+        System.out.println("Factorial = " + fact(5));
+    }
+
+    static int fact(int x) {
+        if (x == 0)
+            return 1;
+        // System.out.println(x);
+        return x * fact(x - 1);
     }
 }

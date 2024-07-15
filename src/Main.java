@@ -253,5 +253,32 @@ public class Main {
         for (String animal : animals) {
             System.out.println(animal);
         }
+
+        // ! String Methods
+        String NAME = "    Broooooo     ";
+        System.out.println("\nString Methods:\n");
+
+        System.out.println("Original String: " + NAME);
+        boolean result = NAME.equals("Bro");
+        boolean result1 = NAME.equalsIgnoreCase("bro");
+        int result2 = NAME.length();
+        char result3 = NAME.charAt(5);
+        int result4 = NAME.indexOf("B");
+        boolean result5 = NAME.isEmpty();
+        String result6 = NAME.toUpperCase();
+        String result7 = NAME.toLowerCase();
+        String result8 = NAME.trim();
+        String result9 = NAME.replace('o', 'a');
+
+        System.out.println(result);
+        System.out.println(result1);
+        System.out.println(result2);
+        System.out.println(result3);
+        System.out.println(result4);
+        System.out.println(result5);
+        System.out.println(result6);
+        System.out.println(result7);
+        System.out.println(result8);
+        System.out.println(result9);
     }
 }

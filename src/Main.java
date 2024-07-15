@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.ArrayList;
 import java.util.Random;
 
 public class Main {
@@ -213,6 +214,44 @@ public class Main {
             System.out.println();
         }
 
-        scanner.close();
+        // ! Array
+        System.out.println("\nArray:");
+        char[] Alpha = { 'a', 'b', 'c', 'd', 'e' };
+        System.out.println("Array Length: " + Alpha.length);
+        for (i = 0; i < Alpha.length; i++) {
+            System.out.println(Alpha[i]);
+        }
+        String[] Cars = new String[2];
+        Cars[0] = "Toyota";
+        Cars[1] = "Camaro";
+        System.out.println("\nFor-Each Loop:");
+        i = 0;
+        for (String car : Cars) {
+            System.out.println(i + "\t:\t" + car);
+            ++i;
+        }
+
+        // ! 2D Array
+        System.out.println("\n2D Array:");
+        int[][] Matrix = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+        System.out.println("Matrix Rows: " + Matrix.length);
+        System.out.println("Matrix Columns: " + Matrix[0].length);
+        System.out.println();
+        for (int[] row : Matrix) {
+            for (int value : row) {
+                System.out.print(value + "  ");
+            }
+            System.out.println();
+        }
+
+        // ! Array List
+        System.out.println("\nArrayList:");
+        ArrayList<String> animals = new ArrayList<String>();
+        animals.add("Lion");
+        animals.add("Cat");
+        animals.add("Tiger");
+        for (String animal : animals) {
+            System.out.println(animal);
+        }
     }
 }

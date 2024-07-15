@@ -27,8 +27,6 @@ The workspace contains two folders, where:
     └── Oops.java
 
 3 directories, 8 files
-
-3 directories, 6 files
 ```
 
 ## Learning Milestones

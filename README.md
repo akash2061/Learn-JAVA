@@ -16,13 +16,17 @@ The workspace contains two folders, where:
 .
 ├── README.md
 ├── bin
+│   ├── Gui.class
 │   ├── Main.class
-│   └── Gui.class
+│   └── Oops.class
 ├── lib
 ├── run.ps1
 └── src
+    ├── Gui.java
     ├── Main.java
-    └── Gui.java
+    └── Oops.java
+
+3 directories, 8 files
 
 3 directories, 6 files
 ```

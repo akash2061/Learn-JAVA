@@ -85,10 +85,10 @@ public class Main {
 
         System.out.println("Enter base : ");
         base = scanner.nextDouble();
-
+        scanner.nextLine();
         System.out.println("Enter side : ");
         side = scanner.nextDouble();
-
+        scanner.nextLine();
         double hypo = Math.sqrt((base * base) + (side * side));
         System.out.println("The hypotenous is " + hypo);
 
@@ -161,6 +161,23 @@ public class Main {
             System.out.println("Value: " + i);
             i++;
         } while (i <= 3);
+
+        // ! For Loop
+        System.out.println("\nFor Loop:");
+        System.out.println("Total Days in Array:");
+        for (i = 0; i < days.length; i++) {
+            System.out.println(i + "\t:\t" + days[i]);
+        }
+
+        // ! Nested Loop
+        System.out.println("\nNested Loop:");
+        for (int outer = 1; outer <= 5; outer++) {
+            for (int inner = 1; inner <= outer; inner++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
         scanner.close();
     }
 }

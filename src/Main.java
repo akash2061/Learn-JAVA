@@ -79,6 +79,7 @@ public class Main {
         System.out.println("Floor:\t" + Math.floor(pi));
 
         // ! Calculate Hypotenous
+        System.out.println("\nCalculate Hypotenous:");
         double base, side;
         // Scanner scanner = new Scanner(System.in);
 
@@ -143,6 +144,23 @@ public class Main {
                 break;
         }
 
+        // ! While Loop
+        System.out.println("\nWhile Loop:");
+        scanner.nextLine();
+        String name = "";
+        while (name.isBlank()) {
+            System.out.print("Enter Your Name: ");
+            name = scanner.nextLine();
+        }
+        System.out.println("Hello " + name);
+
+        // ! Do-While Loop
+        System.out.println("\nDo-While Loop:");
+        i = 0;
+        do {
+            System.out.println("Value: " + i);
+            i++;
+        } while (i <= 3);
         scanner.close();
     }
 }

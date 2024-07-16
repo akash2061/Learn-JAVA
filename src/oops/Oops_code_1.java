@@ -2,6 +2,10 @@ package oops;
 
 public class Oops_code_1 {
     public static void main(String[] args) {
+        car();
+    }
+
+    static void car() {
         Car c = new Car();
         System.out.println("\nCar Description:\n" + c);
         System.out.println(c.year);

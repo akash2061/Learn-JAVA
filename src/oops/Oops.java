@@ -73,10 +73,15 @@ public class Oops {
         System.out.println(pizza);
     }
 
+    static void foods() {
+
+    }
+
     public static void main(String[] args) {
         car(); // ! oops
         human(); // ! Constructors
         diceRoller(); // ! Local & global variables
         pizza();// ! Overloaded Constructors
+        foods(); // ! Array Objects
     }
 }

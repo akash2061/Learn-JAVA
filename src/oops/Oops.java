@@ -74,7 +74,23 @@ public class Oops {
     }
 
     static void foods() {
+        System.out.println("\nArray Object = Resources in refrigerator:");
+        // Food[] refrigerator = new Food[3]; // ! Method 1
+        Food food1 = new Food("Tomato");
+        Food food2 = new Food("Onion");
+        Food food3 = new Food("Bread");
+        Food food4 = new Food("Tomato Sauce");
+        Food food5 = new Food("Ginger garlic paste");
+        Food food6 = new Food("Olive Oil");
 
+        // refrigerator[0] = food1;
+        // refrigerator[1] = food2;
+        // refrigerator[2] = food3;
+
+        Food[] refrigerator = { food1, food2, food3, food4, food5, food6 }; // ! Method 2
+        for (int i = 0; i < refrigerator.length; i++) {
+            System.out.println(i + "\t:\t" + refrigerator[i].name);
+        }
     }
 
     public static void main(String[] args) {

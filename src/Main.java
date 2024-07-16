@@ -69,7 +69,8 @@ public class Main {
         System.out.println("Num % 3 = " + num % 3);
 
         // ! Math
-        double pi = 3.141592;
+        final double pi = 3.141592;
+        // pi = 4;
         d = -10.596;
         System.out.println("\nMath");
         System.out.println("Max:\t" + Math.max(pi, d));

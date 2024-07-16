@@ -282,7 +282,7 @@ public class Main {
         System.out.println(result8);
         System.out.println(result9);
 
-        System.out.println("Factorial = " + fact(5));
+        System.out.printf("Factorial = %d", fact(5));
     }
 
     static int fact(int x) {

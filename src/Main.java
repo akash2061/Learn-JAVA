@@ -69,17 +69,17 @@ public class Main {
         System.out.println("Num % 3 = " + num % 3);
 
         // ! Math
-        final double pi = 3.141592;
-        // pi = 4;
+        final double PI = 3.141592; // ! Final Keyword: PI
+        // PI = 4;
         d = -10.596;
         System.out.println("\nMath");
-        System.out.println("Max:\t" + Math.max(pi, d));
-        System.out.println("Min:\t" + Math.min(pi, d));
+        System.out.println("Max:\t" + Math.max(PI, d));
+        System.out.println("Min:\t" + Math.min(PI, d));
         System.out.println("Abs:\t" + Math.abs(d));
-        System.out.println("Sqrt:\t" + Math.sqrt(pi));
-        System.out.println("Round:\t" + Math.round(pi));
-        System.out.println("Ceil:\t" + Math.ceil(pi));
-        System.out.println("Floor:\t" + Math.floor(pi));
+        System.out.println("Sqrt:\t" + Math.sqrt(PI));
+        System.out.println("Round:\t" + Math.round(PI));
+        System.out.println("Ceil:\t" + Math.ceil(PI));
+        System.out.println("Floor:\t" + Math.floor(PI));
 
         // ! Calculate Hypotenous
         System.out.println("\nCalculate Hypotenous:");

@@ -1,6 +1,6 @@
 package oops;
 
-public class Oops_code_1 {
+public class Oops {
 
     static void car() {
         Car c = new Car();

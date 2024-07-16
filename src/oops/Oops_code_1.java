@@ -30,5 +30,7 @@ public class Oops_code_1 {
         System.out.printf("Weight: %10.2f\n", h1.weight);
         h1.drink();
         System.out.println();
+        Human human = new Human(null, 0, 0);
+        System.out.println(human);
     }
 }

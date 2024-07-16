@@ -18,4 +18,8 @@ public class Human {
     void drink() {
         System.out.println(this.name + " is drinking...");
     }
+
+    public String toString() {
+        return String.format("Name: %12s\nAge: %10d\nWeight: %10.2f\n", this.name, this.age, this.weight);
+    }
 }

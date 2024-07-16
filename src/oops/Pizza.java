@@ -32,4 +32,12 @@ public class Pizza {
     Pizza() {
         System.out.println("\nNo Pizza to serve!");
     }
+
+    public String toString() {
+        return "\ntoString = Pizza Description:\n" +
+                "Bread: " + bread + "\n" +
+                "Sauce: " + sauce + "\n" +
+                "Cheese: " + cheese + "\n" +
+                "Topping: " + topping;
+    }
 }

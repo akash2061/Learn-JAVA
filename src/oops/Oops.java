@@ -69,6 +69,8 @@ public class Oops {
         System.out.printf("Sauce:   \t%s\n", pizza4.sauce);
         System.out.printf("Cheese:  \t%s\n", pizza4.cheese);
         System.out.printf("Topping: \t%s\n", pizza4.topping);
+
+        System.out.println(pizza);
     }
 
     public static void main(String[] args) {

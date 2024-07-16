@@ -7,20 +7,20 @@ public class Car {
     String color = "Black";
     double price = 17300000.00;
 
-    void drive(){
+    void drive() {
         System.out.println("You are driving the car");
     }
 
-    void brake(){
+    void brake() {
         System.out.println("You step on the brake");
     }
 
-    public String toString(){
+    public String toString() {
         String myString = make + "\n" + model + "\n" + color;
         return myString;
     }
 
     // Car(String name){
-    //     this.name = name;
+    // this.name = name;
     // }
 }

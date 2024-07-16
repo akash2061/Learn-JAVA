@@ -283,6 +283,9 @@ public class Main {
         System.out.println(result9);
 
         System.out.printf("Factorial = %d", fact(5));
+        System.out.println();
+        i = 40350120;
+        System.out.printf("I = %,d", i);
     }
 
     static int fact(int x) {

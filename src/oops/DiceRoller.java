@@ -3,6 +3,7 @@ package oops;
 import java.util.Random;
 
 public class DiceRoller {
+    // ! Global variables
     Random random;
     int num;
 

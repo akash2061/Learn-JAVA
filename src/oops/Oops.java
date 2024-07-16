@@ -35,8 +35,8 @@ public class Oops {
     }
 
     public static void main(String[] args) {
-        car();
-        human();
-        diceRoller();
+        car(); // ! oops
+        human(); // ! Constructors
+        diceRoller(); // ! Local & global variables
     }
 }

@@ -1,4 +1,4 @@
-public class Oops {
+public class Overloaded_Method {
     public static void main(String[] args) {
         // ! Overloaded Methods
         int x = add(1, 2);

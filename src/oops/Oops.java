@@ -34,9 +34,47 @@ public class Oops {
         new DiceRoller();
     }
 
+    static void pizza() {
+        System.out.println("\nHere are the Ingredient of the pizza:");
+        Pizza pizza = new Pizza("Thin Crust", "Tomato Sauce", "Mozzarella", "Paneer");
+        System.out.printf("Bread:   \t%s\n", pizza.bread);
+        System.out.printf("Sauce:   \t%s\n", pizza.sauce);
+        System.out.printf("Cheese:  \t%s\n", pizza.cheese);
+        System.out.printf("Topping: \t%s\n", pizza.topping);
+
+        System.out.println("\nHere are the Ingredient of the second pizza:");
+        Pizza pizza1 = new Pizza("Thick Crust", "Garlic Sauce", "Cheddar");
+        System.out.printf("Bread:   \t%s\n", pizza1.bread);
+        System.out.printf("Sauce:   \t%s\n", pizza1.sauce);
+        System.out.printf("Cheese:  \t%s\n", pizza1.cheese);
+        System.out.printf("Topping: \t%s\n", pizza1.topping);
+
+        System.out.println("\nHere are the Ingredient of the third pizza:");
+        Pizza pizza2 = new Pizza("Thick Crust", "Garlic Sauce");
+        System.out.printf("Bread:   \t%s\n", pizza2.bread);
+        System.out.printf("Sauce:   \t%s\n", pizza2.sauce);
+        System.out.printf("Cheese:  \t%s\n", pizza2.cheese);
+        System.out.printf("Topping: \t%s\n", pizza2.topping);
+
+        System.out.println("\nHere are the Ingredient of the forth pizza:");
+        Pizza pizza3 = new Pizza("Thick Crust");
+        System.out.printf("Bread:   \t%s\n", pizza3.bread);
+        System.out.printf("Sauce:   \t%s\n", pizza3.sauce);
+        System.out.printf("Cheese:  \t%s\n", pizza3.cheese);
+        System.out.printf("Topping: \t%s\n", pizza3.topping);
+
+        System.out.println("\nHere are the Ingredient of the fifth pizza:");
+        Pizza pizza4 = new Pizza();
+        System.out.printf("Bread:   \t%s\n", pizza4.bread);
+        System.out.printf("Sauce:   \t%s\n", pizza4.sauce);
+        System.out.printf("Cheese:  \t%s\n", pizza4.cheese);
+        System.out.printf("Topping: \t%s\n", pizza4.topping);
+    }
+
     public static void main(String[] args) {
         car(); // ! oops
         human(); // ! Constructors
         diceRoller(); // ! Local & global variables
+        pizza();// ! Overloaded Constructors
     }
 }

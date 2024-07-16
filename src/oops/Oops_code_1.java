@@ -1,10 +1,6 @@
 package oops;
 
 public class Oops_code_1 {
-    public static void main(String[] args) {
-        car();
-        human();
-    }
 
     static void car() {
         Car c = new Car();
@@ -32,5 +28,15 @@ public class Oops_code_1 {
         System.out.println();
         Human human = new Human(null, 0, 0);
         System.out.println(human);
+    }
+
+    static void diceRoller() {
+        new DiceRoller();
+    }
+
+    public static void main(String[] args) {
+        car();
+        human();
+        diceRoller();
     }
 }

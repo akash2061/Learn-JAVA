@@ -99,12 +99,21 @@ public class Oops {
         g.park(c);
     }
 
+    static void friend() {
+        System.out.println("\nNumber of Friends: " + Friend.numOffriends);
+        new Friend("John Libert");
+        new Friend("Vincent");
+        new Friend("Valerie");
+        Friend.displayTotalFriends(); // ! Static methods
+    }
+
     public static void main(String[] args) {
         car(); // ! oops
         human(); // ! Constructors
         diceRoller(); // ! Local & global variables
         pizza();// ! Overloaded Constructors
         foods(); // ! Array Objects
-        garage(); //! Object Passing
+        garage(); // ! Object Passing
+        friend(); // ! Static variables
     }
 }

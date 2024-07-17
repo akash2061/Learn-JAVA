@@ -20,7 +20,10 @@ public class Car {
         return myString;
     }
 
-    // Car(String name){
-    // this.name = name;
-    // }
+    //! Object Passing
+    String name;
+
+    Car(String name) {
+        this.name = name;
+    }
 }

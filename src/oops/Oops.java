@@ -3,7 +3,7 @@ package oops;
 public class Oops {
 
     static void car() {
-        Car c = new Car();
+        Car c = new Car("BMW");
         System.out.println("\nCar Description:\n" + c);
         System.out.println(c.year);
         System.out.printf("Price : %,.2f\n", c.price);
@@ -93,11 +93,18 @@ public class Oops {
         }
     }
 
+    static void garage() {
+        Garage g = new Garage();
+        Car c = new Car("Porsche 911");
+        g.park(c);
+    }
+
     public static void main(String[] args) {
         car(); // ! oops
         human(); // ! Constructors
         diceRoller(); // ! Local & global variables
         pizza();// ! Overloaded Constructors
         foods(); // ! Array Objects
+        garage(); //! Object Passing
     }
 }

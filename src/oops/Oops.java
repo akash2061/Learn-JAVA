@@ -107,6 +107,12 @@ public class Oops {
         Friend.displayTotalFriends(); // ! Static methods
     }
 
+    static void vehical() {
+        Bicycle b = new Bicycle();
+        b.stop();
+        System.out.println("Speed = " + b.speed);
+    }
+
     public static void main(String[] args) {
         car(); // ! oops
         human(); // ! Constructors
@@ -115,5 +121,6 @@ public class Oops {
         foods(); // ! Array Objects
         garage(); // ! Object Passing
         friend(); // ! Static variables
+        vehical(); // ! Inheritance
     }
 }

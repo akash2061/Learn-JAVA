@@ -20,7 +20,7 @@ public class Oops {
         System.out.printf("Weight: %10.2f\n", h.weight);
         h.eat();
         System.out.println();
-        Human h1 = new Human("Vincent", 27, 78);
+        Human h1 = new Human("Vincent", 23, 78);
         System.out.printf("Name: %14s\n", h1.name);
         System.out.printf("Age: %10d\n", h1.age);
         System.out.printf("Weight: %10.2f\n", h1.weight);
@@ -121,6 +121,13 @@ public class Oops {
         animal.speak(); // ! Method Overriding
     }
 
+    static void person() {
+        Hero hero = new Hero("Alucard Hellsing", 3000, "Vampire");
+        Hero hero1 = new Hero("Vincent", 23, "Technology Manipulation");
+        System.out.println(hero);
+        System.out.println(hero1);
+    }
+
     public static void main(String[] args) {
         car(); // ! oops
         human(); // ! Constructors
@@ -131,5 +138,6 @@ public class Oops {
         friend(); // ! Static variables
         vehical(); // ! Inheritance
         animal(); // ! Method Overriding
+        person(); // ! Super Keyword
     }
 }

@@ -128,6 +128,13 @@ public class Oops {
         System.out.println(hero1.toString());
     }
 
+    static void abstract_extends() {
+        Abstract_Extends a = new Abstract_Extends();
+        a.show();
+        a.print();
+        a.Hello();
+    }
+
     public static void main(String[] args) {
         car(); // ! oops
         human(); // ! Constructors
@@ -139,5 +146,6 @@ public class Oops {
         vehical(); // ! Inheritance
         animal(); // ! Method Overriding
         person(); // ! Super Keyword
+        abstract_extends(); // ! Abstraction
     }
 }

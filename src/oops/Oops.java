@@ -125,7 +125,7 @@ public class Oops {
         Hero hero = new Hero("Alucard Hellsing", 3000, "Vampire");
         Hero hero1 = new Hero("Vincent", 23, "Technology Manipulation");
         System.out.println(hero);
-        System.out.println(hero1);
+        System.out.println(hero1.toString());
     }
 
     public static void main(String[] args) {

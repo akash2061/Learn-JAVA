@@ -11,11 +11,6 @@ public class Hero extends Person {
     }
 
     public String toString() {
-        String Age = Integer.toString(this.age);
-        if (this.power == "Vampire") {
-            Age = Integer.toString(this.age) + "+";
-        }
-        String s = "\nName:  " + name + "\nAge:   " + Age + "\nPower: " + power;
-        return s;
+        return super.toString() + "\nPowers: " + this.power;
     }
 }

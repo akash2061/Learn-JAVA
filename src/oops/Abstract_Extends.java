@@ -2,7 +2,7 @@ package oops;
 
 public class Abstract_Extends extends Abstract {
     void show() {
-        System.out.println("Abstract class method called.");
+        System.out.println("\nAbstract class method called.");
     }
 
     void Hello() {

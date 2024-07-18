@@ -113,6 +113,14 @@ public class Oops {
         System.out.println("Speed = " + b.speed);
     }
 
+    static void animal() {
+        System.out.println();
+        Dog dog = new Dog();
+        dog.speak();
+        Animal animal = new Animal();
+        animal.speak(); // ! Method Overriding
+    }
+
     public static void main(String[] args) {
         car(); // ! oops
         human(); // ! Constructors
@@ -122,5 +130,6 @@ public class Oops {
         garage(); // ! Object Passing
         friend(); // ! Static variables
         vehical(); // ! Inheritance
+        animal(); // ! Method Overriding
     }
 }

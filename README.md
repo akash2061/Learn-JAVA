@@ -19,28 +19,60 @@ The workspace contains two folders, where:
 │   ├── Gui.class
 │   ├── Main.class
 │   ├── Overloaded_Method.class
-│   └── oops
-│       ├── Car.class
-│       ├── DiceRoller.class
-│       ├── Food.class
-│       ├── Human.class
-│       ├── Oops.class
-│       └── Pizza.class
+│   ├── oops
+│   │   ├── Abstract.class
+│   │   ├── Abstract_Extends.class
+│   │   ├── Animal.class
+│   │   ├── Bicycle.class
+│   │   ├── Car.class
+│   │   ├── DiceRoller.class
+│   │   ├── Dog.class
+│   │   ├── Food.class
+│   │   ├── Friend.class
+│   │   ├── Garage.class
+│   │   ├── Hero.class
+│   │   ├── Human.class
+│   │   ├── Oops.class
+│   │   ├── Person.class
+│   │   ├── Pizza.class
+│   │   └── Vehicle.class
+│   ├── package1
+│   │   ├── A.class
+│   │   └── B.class
+│   └── package2
+│       ├── Asub.class
+│       └── C.class
 ├── lib
 ├── run.ps1
 └── src
     ├── Gui.java
     ├── Main.java
     ├── Overloaded_Method.java
-    └── oops
-        ├── Car.java
-        ├── DiceRoller.java
-        ├── Food.java
-        ├── Human.java
-        ├── Oops.java
-        └── Pizza.java
+    ├── oops
+    │   ├── Abstract.java
+    │   ├── Abstract_Extends.java
+    │   ├── Animal.java
+    │   ├── Bicycle.java
+    │   ├── Car.java
+    │   ├── DiceRoller.java
+    │   ├── Dog.java
+    │   ├── Food.java
+    │   ├── Friend.java
+    │   ├── Garage.java
+    │   ├── Hero.java
+    │   ├── Human.java
+    │   ├── Oops.java
+    │   ├── Person.java
+    │   ├── Pizza.java
+    │   └── Vehicle.java
+    ├── package1
+    │   ├── A.java
+    │   └── B.java
+    └── package2
+        ├── Asub.java
+        └── C.java
 
-5 directories, 20 files
+9 directories, 48 files
 ```
 
 ## Learning Milestones

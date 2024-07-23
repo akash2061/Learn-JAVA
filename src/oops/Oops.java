@@ -144,6 +144,22 @@ public class Oops {
         System.out.println("Year: " + c.getYear());
     }
 
+    static void copy_objects() {
+        Capsule c1 = new Capsule("Student", 2021);
+        Capsule c2 = new Capsule("Employee", 2024);
+        System.out.println("\nAddress-1 = " + c1);
+        System.out.println("Address-2 = " + c2);
+
+        System.out.println("\n" + c1.getName() + " " + c1.getYear());
+        System.out.println(c2.getName() + " " + c2.getYear());
+        c2.copy(c1);
+        System.out.println("\nAfter copy of c2 = c1\n");
+        System.out.println("Address-1 = " + c1);
+        System.out.println("Address-2 = " + c2);
+        System.out.println("\n" + c1.getName() + " " + c1.getYear());
+        System.out.println(c2.getName() + " " + c2.getYear());
+    }
+
     public static void main(String[] args) {
         car(); // ! oops
         human(); // ! Constructors
@@ -157,5 +173,6 @@ public class Oops {
         person(); // ! Super Keyword
         abstract_extends(); // ! Abstraction
         capsule(); // ! Encapsulation
+        copy_objects(); // ! Copy Objects
     }
 }

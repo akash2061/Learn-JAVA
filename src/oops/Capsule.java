@@ -24,4 +24,9 @@ public class Capsule {
     public void setName(String name) {
         this.name = name;
     }
+
+    public void copy(Capsule x) {
+        this.setName(x.getName());
+        this.setYear(x.getYear());
+    }
 }

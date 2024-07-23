@@ -135,6 +135,15 @@ public class Oops {
         a.Hello();
     }
 
+    static void capsule() {
+        Capsule c = new Capsule("Ronin", 2061);
+        System.out.println();
+        System.out.println("Name: " + c.getName());
+        System.out.println("Year: " + c.getYear());
+        c.setYear(2004);
+        System.out.println("Year: " + c.getYear());
+    }
+
     public static void main(String[] args) {
         car(); // ! oops
         human(); // ! Constructors
@@ -147,5 +156,6 @@ public class Oops {
         animal(); // ! Method Overriding
         person(); // ! Super Keyword
         abstract_extends(); // ! Abstraction
+        capsule(); // ! Encapsulation
     }
 }

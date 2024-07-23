@@ -160,6 +160,13 @@ public class Oops {
         System.out.println(c2.getName() + " " + c2.getYear());
     }
 
+    static void inter() {
+        Rabbit rabbit = new Rabbit();
+        rabbit.flee();
+        Hawk hawk = new Hawk();
+        hawk.hunt();
+    }
+
     public static void main(String[] args) {
         car(); // ! oops
         human(); // ! Constructors
@@ -174,5 +181,6 @@ public class Oops {
         abstract_extends(); // ! Abstraction
         capsule(); // ! Encapsulation
         copy_objects(); // ! Copy Objects
+        inter(); // ! Interface
     }
 }

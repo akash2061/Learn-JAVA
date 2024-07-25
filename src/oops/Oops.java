@@ -202,6 +202,21 @@ public class Oops {
         }
     }
 
+    static void exception() {
+        try {
+            int a = 10;
+            int b = 0;
+            int c = a / b;
+            System.out.println(c);
+        } catch (ArithmeticException e) {
+            System.out.println("\nCan't devide by 0\tERROR:\t" + e);
+        } catch (Exception e) {
+            System.out.println("\nAn Error Occurred\tERROR:\t" + e);
+        } finally {
+            System.out.println("\nThis will always Print.");
+        }
+    }
+
     public static void main(String[] args) {
         car(); // ! oops
         human(); // ! Constructors
@@ -219,5 +234,6 @@ public class Oops {
         inter(); // ! Interface
         polymorphism(); // ! Polymorphism
         dynamic_poly(); // ! Dynamic Polymorphism
+        exception(); // ! Exception Handling
     }
 }

@@ -167,6 +167,18 @@ public class Oops {
         hawk.hunt();
     }
 
+    static void polymorphism() {
+        System.out.println("\nPolymorphism:");
+        Poly_X x = new Poly_X();
+        Poly_Y y = new Poly_Y();
+        Poly_Z z = new Poly_Z();
+
+        Poly[] array = { x, y, z };
+        for (Poly p : array) {
+            p.show();
+        }
+    }
+
     public static void main(String[] args) {
         car(); // ! oops
         human(); // ! Constructors
@@ -182,5 +194,6 @@ public class Oops {
         capsule(); // ! Encapsulation
         copy_objects(); // ! Copy Objects
         inter(); // ! Interface
+        polymorphism(); // ! Polymorphism
     }
 }

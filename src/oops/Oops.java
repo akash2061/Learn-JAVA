@@ -167,7 +167,7 @@ public class Oops {
         hawk.hunt();
     }
 
-    static void polymorphism() {
+    static void polymorphism() { // ! Ability of an object to identify as more than one type.
         System.out.println("\nPolymorphism:");
         Poly_X x = new Poly_X();
         Poly_Y y = new Poly_Y();

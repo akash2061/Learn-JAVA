@@ -17,6 +17,13 @@ public class Generics {
         System.out.println(getFirst(d));
         System.out.println(getFirst(c));
         System.out.println(getFirst(s));
+
+        Generics_class<Integer> g = new Generics_class<>(10);
+        Generics_class<String> g1 = new Generics_class<>("Generic Class...");
+        System.out.println();
+        System.out.println(g.getVal());
+        System.out.println(g1.getVal());
+        System.out.println();
     }
 
     public static <Thing> void displayArray(Thing[] array) {

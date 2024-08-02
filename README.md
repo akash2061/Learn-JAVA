@@ -74,13 +74,3 @@ The workspace contains two folders, where:
 
 9 directories, 48 files
 ```
-
-## Learning Milestones
-
-- [x] Basics of Java (syntax, data types, control structures)
-- [x] Object-Oriented Programming (classes, objects, inheritance, polymorphism)
-- [x] Exception Handling
-- [ ] Collections Framework
-- [x] Java I/O
-- [ ] Concurrency
-- [ ] Java Streams API

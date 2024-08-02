@@ -78,9 +78,9 @@ The workspace contains two folders, where:
 ## Learning Milestones
 
 - [x] Basics of Java (syntax, data types, control structures)
-- [ ] Object-Oriented Programming (classes, objects, inheritance, polymorphism)
-- [ ] Exception Handling
+- [x] Object-Oriented Programming (classes, objects, inheritance, polymorphism)
+- [x] Exception Handling
 - [ ] Collections Framework
-- [ ] Java I/O
+- [x] Java I/O
 - [ ] Concurrency
 - [ ] Java Streams API

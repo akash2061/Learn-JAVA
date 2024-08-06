@@ -22,7 +22,7 @@ public class Sorting_l_l_v {
         b.add(20);
         b.add(10);
         Collections.sort(b);
-        System.out.println("\nSorted LinkedList: " + a);
+        System.out.println("\nSorted LinkedList: " + b);
 
         Vector<Integer> c = new Vector<>();
         c.add(40);
@@ -31,6 +31,15 @@ public class Sorting_l_l_v {
         c.add(20);
         c.add(10);
         Collections.sort(c);
-        System.out.println("\nSorted Vector:     " + a);
+        System.out.println("\nSorted Vector:     " + c);
+        Collections.sort(c, Collections.reverseOrder());
+        System.out.println("\nSorted Reversed:   " + c);
+
+        System.out.println("\nSwaping in C Vector:");
+        for (int i = 0; i < 4; i++) {
+            Collections.swap(c, i, i + 1);
+            System.out.println(c);
+        }
+        // System.out.println(c);
     }
 }

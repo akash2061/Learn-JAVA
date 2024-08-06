@@ -1,6 +1,7 @@
 package List;
 
 import java.util.LinkedList;
+import java.util.Scanner;
 
 public class Linked_List {
     public static void main(String[] args) {
@@ -24,5 +25,20 @@ public class Linked_List {
         l.removeLast();
         System.out.println("\nRemoved First && Last && 1st index element: " + l);
         l.clear();
+
+        // ! Take input.
+        System.out.println("\nEnter 5 Element to Linked-List:");
+        Scanner s = new Scanner(System.in);
+        for (int i = 0; i < 5; i++) {
+            try {
+                int v = s.nextInt();
+                l.add(v);
+            } catch (Exception e) {
+                System.err.println("Invalid input: " + e.getMessage());
+                s.nextLine();
+            }
+        }
+        s.close();
+        System.out.println("\nLinked-List Contains: " + l);
     }
 }

@@ -13,7 +13,7 @@ import java.util.ArrayDeque;
 public class Array_Deque {
     public static void main(String[] args) {
         ArrayDeque<Integer> d = new ArrayDeque<>();
-        // ! Add Fiest & Add Last
+        // ! Add First & Add Last
         d.addFirst(10);
         d.addLast(60);
         d.addFirst(0);

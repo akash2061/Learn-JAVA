@@ -48,5 +48,27 @@ public class Lists {
             System.out.println(el);
         }
         System.out.println("\nArray-List of Integers: " + l_2);
+
+        // ! Find 1st & last occurences of 'x' in array using ArrayList.
+        ArrayList<Integer> ans = new ArrayList<>(Arrays.asList(-1, -1));
+        int[] a = { 1, 2, 3, 4, 4, 4, 6, 4, 8 };
+        int n = a.length;
+        int x = 4;
+        // Iterate through the array once
+        for (int i = 0; i < n; i++) {
+            if (a[i] == x) {
+                // If it's the first occurrence
+                if (ans.get(0) == -1) {
+                    ans.set(0, i);
+                }
+                // Update last occurrence
+                ans.set(1, i);
+            }
+        }
+        System.out.print("\nArray A = { ");
+        for (var i : a) {
+            System.out.print(i + " ");
+        }
+        System.out.println("}\n1st & Last Occorence of " + x + ":\n" + ans);
     }
 }

@@ -40,5 +40,14 @@ public class Vectors {
         }
         s.close();
         System.out.println("\nLinked-List Contains: " + v);
+
+        // ! store multi-type in vector {rawtype vector} or {Object}
+        Vector<Object> a = new Vector<>();
+        a.add(1);
+        a.add(2);
+        a.add("Hello");
+        a.add("hii");
+        a.add(3);
+        System.out.println("\nObject Type Vector: " + a);
     }
 }

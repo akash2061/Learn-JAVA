@@ -84,5 +84,17 @@ public class Lists {
         while (iter.hasNext()) {
             System.out.println(iter.next());
         }
+
+        ArrayList<Integer> r = new ArrayList<>();
+        r.add(1);
+        r.add(3);
+        r.add(5);
+        r.add(7);
+        r.add(9);
+
+        System.out.println("\nList r:   " + r);
+        System.out.println("List l_2: " + l_2);
+        l_2.retainAll(r);
+        System.out.println("\nRetainAll Values of l_2 - r: " + l_2);
     }
 }

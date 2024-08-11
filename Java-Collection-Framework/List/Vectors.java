@@ -53,5 +53,13 @@ public class Vectors {
         @SuppressWarnings("unchecked")
         Vector<Integer> y = (Vector<Integer>) v.clone();
         System.out.println("\nClone Vector v to y: " + y);
+
+        Object[] array = new Object[5];
+        a.copyInto(array);
+        System.out.println("\nCopy Object-Vector to Object-Array: ");
+        // for (var i : array) System.out.print(i + " ");
+        for (Object i : array) {
+            System.out.print(i + " ");
+        }
     }
 }

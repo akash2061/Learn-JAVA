@@ -49,5 +49,9 @@ public class Vectors {
         a.add("hii");
         a.add(3);
         System.out.println("\nObject Type Vector: " + a);
+
+        @SuppressWarnings("unchecked")
+        Vector<Integer> y = (Vector<Integer>) v.clone();
+        System.out.println("\nClone Vector v to y: " + y);
     }
 }

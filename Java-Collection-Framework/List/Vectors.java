@@ -61,5 +61,7 @@ public class Vectors {
         for (Object i : array) {
             System.out.print(i + " ");
         }
+        System.out.println("\n\nTo String: " + a.toString());
+        System.out.println("Hash Code of v: " + v.hashCode());
     }
 }

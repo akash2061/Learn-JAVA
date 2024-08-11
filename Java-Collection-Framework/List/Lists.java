@@ -2,6 +2,7 @@ package List;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.List;
 
 public class Lists {
@@ -77,5 +78,11 @@ public class Lists {
         odd.add(5);
         ArrayList<Integer> num = new ArrayList<>(odd);
         System.out.println(num);
+
+        System.out.println("\nIterate into l_2 using iterator:");
+        Iterator<Integer> iter = l_2.iterator();
+        while (iter.hasNext()) {
+            System.out.println(iter.next());
+        }
     }
 }

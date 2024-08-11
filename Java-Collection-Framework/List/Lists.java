@@ -70,5 +70,12 @@ public class Lists {
             System.out.print(i + " ");
         }
         System.out.println("}\n1st & Last Occorence of " + x + ":\n" + ans);
+
+        ArrayList<Integer> odd = new ArrayList<>();
+        odd.add(1);
+        odd.add(3);
+        odd.add(5);
+        ArrayList<Integer> num = new ArrayList<>(odd);
+        System.out.println(num);
     }
 }

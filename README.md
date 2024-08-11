@@ -14,63 +14,63 @@ The workspace contains two folders, where:
 
 ```ruby
 .
+├── Java-Collection-Framework
+│   ├── List
+│   │   ├── Linked_List.java
+│   │   ├── Lists.java
+│   │   ├── Sorting_l_l_v.java
+│   │   └── Vectors.java
+│   ├── Map
+│   ├── Queue
+│   │   ├── Array_Deque.java
+│   │   └── Priority_queue.java
+│   └── Set
 ├── README.md
-├── bin
-│   ├── Gui.class
-│   ├── Main.class
-│   ├── Overloaded_Method.class
-│   ├── oops
-│   │   ├── Abstract.class
-│   │   ├── Abstract_Extends.class
-│   │   ├── Animal.class
-│   │   ├── Bicycle.class
-│   │   ├── Car.class
-│   │   ├── DiceRoller.class
-│   │   ├── Dog.class
-│   │   ├── Food.class
-│   │   ├── Friend.class
-│   │   ├── Garage.class
-│   │   ├── Hero.class
-│   │   ├── Human.class
-│   │   ├── Oops.class
-│   │   ├── Person.class
-│   │   ├── Pizza.class
-│   │   └── Vehicle.class
-│   ├── package1
-│   │   ├── A.class
-│   │   └── B.class
-│   └── package2
-│       ├── Asub.class
-│       └── C.class
-├── lib
 ├── run.ps1
-└── src
-    ├── Gui.java
-    ├── Main.java
-    ├── Overloaded_Method.java
-    ├── oops
-    │   ├── Abstract.java
-    │   ├── Abstract_Extends.java
-    │   ├── Animal.java
-    │   ├── Bicycle.java
-    │   ├── Car.java
-    │   ├── DiceRoller.java
-    │   ├── Dog.java
-    │   ├── Food.java
-    │   ├── Friend.java
-    │   ├── Garage.java
-    │   ├── Hero.java
-    │   ├── Human.java
-    │   ├── Oops.java
-    │   ├── Person.java
-    │   ├── Pizza.java
-    │   └── Vehicle.java
-    ├── package1
-    │   ├── A.java
-    │   └── B.java
-    └── package2
-        ├── Asub.java
-        └── C.java
+├── src
+│   ├── Files.java
+│   ├── Generics_class.java
+│   ├── Generics.java
+│   ├── GFG.java
+│   ├── Gui.java
+│   ├── Main.java
+│   ├── oops
+│   │   ├── Abstract_Extends.java
+│   │   ├── Abstract.java
+│   │   ├── Animal.java
+│   │   ├── Bicycle.java
+│   │   ├── Capsule.java
+│   │   ├── Car.java
+│   │   ├── Cat.java
+│   │   ├── DiceRoller.java
+│   │   ├── Dog.java
+│   │   ├── Food.java
+│   │   ├── Friend.java
+│   │   ├── Garage.java
+│   │   ├── Hawk.java
+│   │   ├── Hero.java
+│   │   ├── Human.java
+│   │   ├── Oops.java
+│   │   ├── Person.java
+│   │   ├── Pizza.java
+│   │   ├── Poly.java
+│   │   ├── Poly_X.java
+│   │   ├── Poly_Y.java
+│   │   ├── Poly_Z.java
+│   │   ├── Pray.java
+│   │   ├── Predator.java
+│   │   ├── Rabbit.java
+│   │   └── Vehicle.java
+│   ├── Overloaded_Method.java
+│   ├── package1
+│   │   ├── A.java
+│   │   └── B.java
+│   ├── package2
+│   │   ├── Asub.java
+│   │   └── C.java
+│   ├── TextFieldExample1.java
+│   └── Union_of_arr.java
+└── test.txt
 
 9 directories, 48 files
 ```

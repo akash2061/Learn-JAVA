@@ -7,6 +7,7 @@ This repository documents my learning journey of the JAVA language.
 The workspace contains two folders, where:
 
 - `src`: The folder to maintain source code.
+- `Java-Collection-Framework`: The folder to maintain JCF code & concepts.
 - `lib`: The folder to maintain dependencies.
 
 ## Directory Tree 🌲

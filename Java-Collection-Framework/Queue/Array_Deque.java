@@ -8,6 +8,8 @@ package Queue;
 */
 
 import java.util.ArrayDeque;
+import java.util.List;
+import java.util.LinkedList;
 
 public class Array_Deque {
     public static void main(String[] args) {
@@ -40,5 +42,14 @@ public class Array_Deque {
         System.out.println("\nFirst element (peek): " + firstPeeked);
         System.out.println("Last element (peek): " + lastPeeked);
         System.out.println("Array-Deque after peeking first and last elements: " + d);
+
+        d.push(0);
+        System.out.println("\nArray-Deque: " + d);
+        int mid = d.size() / 2;
+        List<Integer> list = new LinkedList<>(d);
+        list.remove(mid);
+        d.clear();
+        d.addAll(list);
+        System.out.println("Array-Deque after removing mid element: " + d);
     }
 }

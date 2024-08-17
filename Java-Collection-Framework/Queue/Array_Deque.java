@@ -43,6 +43,7 @@ public class Array_Deque {
         System.out.println("Last element (peek): " + lastPeeked);
         System.out.println("Array-Deque after peeking first and last elements: " + d);
 
+        // ! remove mid element
         d.push(0);
         System.out.println("\nArray-Deque: " + d);
         int mid = d.size() / 2;

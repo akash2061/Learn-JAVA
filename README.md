@@ -17,12 +17,13 @@ Learn-JAVA/
 .
 ├── Java-Collection-Framework
 │   ├── List
+│   │   ├── LL_AL_to_L.java
 │   │   ├── Linked_List.java
 │   │   ├── Lists.java
-│   │   ├── LL_AL_to_L.java
 │   │   ├── Sorting_l_l_v.java
 │   │   └── Vectors.java
 │   ├── Map
+│   │   └── Hash_Map.java
 │   ├── Queue
 │   │   ├── Array_Deque.java
 │   │   └── Priority_queue.java
@@ -31,14 +32,17 @@ Learn-JAVA/
 ├── run.ps1
 ├── src
 │   ├── Files.java
-│   ├── Generics_class.java
-│   ├── Generics.java
 │   ├── GFG.java
+│   ├── Generics.java
+│   ├── Generics_class.java
 │   ├── Gui.java
 │   ├── Main.java
+│   ├── Overloaded_Method.java
+│   ├── TextFieldExample1.java
+│   ├── Union_of_arr.java
 │   ├── oops
-│   │   ├── Abstract_Extends.java
 │   │   ├── Abstract.java
+│   │   ├── Abstract_Extends.java
 │   │   ├── Animal.java
 │   │   ├── Bicycle.java
 │   │   ├── Capsule.java
@@ -63,16 +67,13 @@ Learn-JAVA/
 │   │   ├── Predator.java
 │   │   ├── Rabbit.java
 │   │   └── Vehicle.java
-│   ├── Overloaded_Method.java
 │   ├── package1
 │   │   ├── A.java
 │   │   └── B.java
-│   ├── package2
-│   │   ├── Asub.java
-│   │   └── C.java
-│   ├── TextFieldExample1.java
-│   └── Union_of_arr.java
+│   └── package2
+│       ├── Asub.java
+│       └── C.java
 └── test.txt
 
-9 directories, 49 files
+9 directories, 50 files
 ```

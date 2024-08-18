@@ -47,5 +47,17 @@ public class Hash_Map {
             map.put(k, map.getOrDefault(k, 0) + 1);
         }
         System.out.println("\nMap-2 (Element Frequencies): " + map);
+
+        // ! Iterating over the map's entry set
+        System.out.println("\nMap (m):");
+        for (Map.Entry<String, Integer> entry : m.entrySet()) {
+            System.out.println("Key: " + entry.getKey() + ", Value: " + entry.getValue());
+        }
+
+        // ! Iterate over value
+        System.out.println("\nValues:");
+        for (var i : m.values()) {
+            System.out.println(i);
+        }
     }
 }

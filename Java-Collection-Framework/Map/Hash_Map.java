@@ -1,6 +1,7 @@
 package Map;
 
 import java.util.Map;
+import java.util.Random;
 import java.util.HashMap;
 
 public class Hash_Map {
@@ -23,5 +24,28 @@ public class Hash_Map {
         var y = m.containsValue(5);
         System.out.println("\nResult returned by ContainsKey:   " + x);
         System.out.println("Result returned by ContainsValue: " + y);
+
+        System.out.println("\n" + m);
+        m.remove("Orange");
+        System.out.println(m);
+
+        // ! New Map
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < 5; i++) {
+            map.put(i, Integer.hashCode(i));
+        }
+        System.out.println("\nMap-2: " + map);
+        // ! Map is Clear.
+        map.clear();
+
+        System.out.println("\n10 random elements (0-2) to find their frequency in Map-2:");
+        int max = 2;
+        int min = 0;
+        Random random = new Random();
+        for (int i = 0; i < 100; i++) {
+            int k = random.nextInt(max - min + 1) + min;
+            map.put(k, map.getOrDefault(k, 0) + 1);
+        }
+        System.out.println("\nMap-2 (Element Frequencies): " + map);
     }
 }

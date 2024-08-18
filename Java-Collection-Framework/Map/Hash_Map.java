@@ -13,9 +13,15 @@ public class Hash_Map {
         String orange = "Orange";
         String foo = "Foo";
 
-        m.put(orange, orange.hashCode()); //? Replace value (5) with hashCode.
+        m.put(orange, orange.hashCode()); // ? Replace value (5) with hashCode.
         m.put(foo, foo.hashCode());
 
         System.out.println("\nMap: " + m);
+
+        // ! ContainsValue && ContainsKey
+        var x = m.containsKey("Apple");
+        var y = m.containsValue(5);
+        System.out.println("\nResult returned by ContainsKey:   " + x);
+        System.out.println("Result returned by ContainsValue: " + y);
     }
 }

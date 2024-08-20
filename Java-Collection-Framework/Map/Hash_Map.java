@@ -59,5 +59,7 @@ public class Hash_Map {
         for (var i : m.values()) {
             System.out.println(i);
         }
+
+        System.out.println("\nMap Size: " + m.size());
     }
 }

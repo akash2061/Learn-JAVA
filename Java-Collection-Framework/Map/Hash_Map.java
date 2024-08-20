@@ -61,5 +61,7 @@ public class Hash_Map {
         }
 
         System.out.println("\nMap Size: " + m.size());
+        m.put(null,0); //! Allows null key
+        System.out.println(m);
     }
 }

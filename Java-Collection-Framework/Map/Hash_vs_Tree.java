@@ -10,7 +10,7 @@ public class Hash_vs_Tree {
         Map<String, Integer> tree = new TreeMap<>();
         long startTime, endTime; // ! Time-delay
 
-        // Insert a large number of elements in HashMap
+        //! Insert a large number of elements in HashMap
         startTime = System.nanoTime();
         for (int i = 0; i < 1000000; i++) {
             hash.put("Key" + i, i);
@@ -18,7 +18,7 @@ public class Hash_vs_Tree {
         endTime = System.nanoTime();
         System.out.println("\nHashMap Insertion Time: " + (endTime - startTime) + " nanoseconds");
 
-        // Insert a large number of elements in TreeMap
+        //! Insert a large number of elements in TreeMap
         startTime = System.nanoTime();
         for (int i = 0; i < 1000000; i++) {
             tree.put("Key" + i, i);
@@ -26,7 +26,7 @@ public class Hash_vs_Tree {
         endTime = System.nanoTime();
         System.out.println("TreeMap Insertion Time: " + (endTime - startTime) + " nanoseconds");
 
-        // Access time comparison
+        //! Access time comparison
         startTime = System.nanoTime();
         hash.get("Key500000");
         endTime = System.nanoTime();

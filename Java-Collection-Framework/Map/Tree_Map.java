@@ -1,5 +1,6 @@
 package Map;
 
+import java.util.Comparator;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -14,5 +15,11 @@ public class Tree_Map {
         m.put("Avocado", 6);
 
         System.out.println("\nTree-Map Contains: " + m);
+
+        Map<String, Integer> rev = new TreeMap<>(Comparator.reverseOrder());
+        for (Map.Entry<String, Integer> entry : m.entrySet()) {
+            rev.put(entry.getKey(), entry.getValue());
+        }
+        System.out.println("\nTree-Map Contains (reverse): " + rev);
     }
 }

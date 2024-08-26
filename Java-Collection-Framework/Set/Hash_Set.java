@@ -1,7 +1,9 @@
 package Set;
 // ? Observation: Collects only unique elements.
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
 
@@ -42,5 +44,22 @@ public class Hash_Set {
         System.out.println();
         System.out.println(s);
         System.out.println(names);
+
+        s.clear();
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(2);
+        list.add(1);
+        System.out.println("\nList Contains:");
+        System.out.println(list);
+        System.out.println("\nRemoving Duplicates:");
+        s.addAll(list);
+        list.clear();
+        list.addAll(s);
+        System.out.println(list);
+        list.clear();
+        s.clear();
     }
 }

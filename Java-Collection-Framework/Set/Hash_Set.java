@@ -27,5 +27,10 @@ public class Hash_Set {
         for (var i : s) {
             System.out.println(i);
         }
+        s.add(null);
+        System.out.println("Allow null value:");
+        for (var i : s) {
+            System.out.println(i);
+        }
     }
 }

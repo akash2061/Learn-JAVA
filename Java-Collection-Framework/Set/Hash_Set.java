@@ -32,5 +32,12 @@ public class Hash_Set {
         for (var i : s) {
             System.out.println(i);
         }
+
+        Set<String> names = new HashSet<>(1);
+        names.add("null");
+        names.add("null");
+        for (var i : names) {
+            System.out.println(i);
+        }
     }
 }

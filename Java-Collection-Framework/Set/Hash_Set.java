@@ -1,5 +1,5 @@
 package Set;
-// ? Observation: Collects only unique elements & order them in Ascending order.
+// ? Observation: Collects only unique elements.
 
 import java.util.HashSet;
 import java.util.Scanner;

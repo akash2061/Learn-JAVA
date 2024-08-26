@@ -37,7 +37,10 @@ public class Hash_Set {
         names.add("null");
         names.add("null");
         for (var i : names) {
-            System.out.println(i);
+            System.out.println("\nNames contains: " + i);
         }
+        System.out.println();
+        System.out.println(s);
+        System.out.println(names);
     }
 }
